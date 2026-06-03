@@ -20,4 +20,5 @@ indent-width = 2
 line-length = 80
 profile = "django"
 exclude = [
+  "vendor/wagtailcolumnblocks/build/lib/wagtailcolumnblocks/templates/block_forms/columnsblock.html"
 ]
