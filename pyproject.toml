@@ -1,0 +1,22 @@
+[project]
+name = "djangofmt-debugging"
+requires-python = ">=3.13"
+dependencies = [
+  "djangofmt (>=0.2.7)"
+]
+
+[tool.poetry]
+package-mode = false
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.djangofmt]
+html-void-self-closing = "always"
+indent-width = 2
+line-length = 80
+profile = "django"
+exclude = [
+]
