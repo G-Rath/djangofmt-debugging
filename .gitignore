@@ -1,0 +1,12 @@
+__pycache__
+/node_modules/
+*.idea
+*.retry
+.DS_Store
+.vscode
+/static/
+/media/
+/*/static/
+/db_dump
+
+.cache
