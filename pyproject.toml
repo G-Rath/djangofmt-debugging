@@ -1,9 +1,10 @@
 [project]
 name = "djangofmt-debugging"
 requires-python = ">=3.13"
-dependencies = [
-  "djangofmt (>=0.2.7)"
-]
+
+[tool.poetry.dependencies]
+wagtailcolumnblocks = { path = "./vendor/wagtailcolumnblocks/", develop = false }
+djangofmt = ">=0.2.7"
 
 [tool.poetry]
 package-mode = false
